@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlashyButton">
+        <attr name="iconOn" format="reference"/>
+        <attr name="iconOff" format="reference"/>
+        <attr name="iconSize" format="dimension"/>
+        <attr name="primaryColor" format="color"/>
+        <attr name="secondaryColor" format="color"/>
+        <attr name="checked" format="boolean"/>
+        <attr name="animation" format="enum">
+            <enum name="firework" value="0"/>
+            <enum name="vacuum" value="1"/>
+            <enum name="explode" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
